@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    gap: 5px;
+    margin-left: 50vw;
+    margin-top:6%;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.container{
+    margin-left: 10%;
+  
+
+    height: 70vh;
+    width: 70vw;
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 'p p n'
+    'b d n'
+    'o t th';
+    gap: 20px;
+}
+
+.pic{
+    grid-area: p;
+}
+
+.new{
+    background-color:  hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+    grid-area: n;
+}
+
+.bright{
+    background-color: transparent;
+    grid-area: b;
+    
+}
+
+.dive{
+    background-color: transparent;
+    grid-area: d;
+
+
+}
+
+.one{
+    background-color: transparent;
+    grid-area: o;
+    display: flex;
+
+}
+
+.two{
+    background-color: transparent;
+    grid-area: t;
+    display: flex;
+}
+
+
+.three{
+    background-color: transparent;
+    grid-area: th;
+    display: flex;
+}
+
+img{
+    height:70%;
+    width: 100%;
+
+}
+
+.text{
+    font-size: 15px;
+    color: hsl(236, 13%, 42%)
+}
+
+button{
+    margin-top: 10px;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    height: 20%;
+    border: none;
+}
+
+.new{
+    width: 26vw;
+    display: flex;
+    flex-direction: column;
+}
+.hyd{
+    height:15vh;
+    margin-left: 5%;
+    text-align: justify;
+}
+
+.ai{
+    height: 30%;
+    height:15vh;
+    margin-left: 5%;
+    text-align: justify;
+}
+
+.vc{
+    margin-top: 20px;
+    height: 30%;
+    height:15vh;
+    margin-left: 5%;
+    text-align: justify;
+}
+.picha{
+    height: 100%;
+}
+
+.two{
+
+}
+
+.head{
+    margin-left: 10px;
+}
